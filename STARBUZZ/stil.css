@@ -8,8 +8,13 @@ body {
 h2
 {
   color: white;
+  font-family: serif;
 }
 h1
 {
   color: brown;
+}
+.denumire
+{
+  color: yellow;
 }
