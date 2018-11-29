@@ -1,0 +1,30 @@
+#positioned {
+  border-style: solid;
+  border-width: medium;
+  border-color: orange;
+  background-color: yellow;
+  width: 200px;
+  height: 20px;
+  text-align: center;
+  position: fixed;
+  top: 200px;
+  left: 40px;
+  transition: width 3.5s, height 3.5s;
+  transition-timing-function: ease-in-out;
+  animation-duration: 4s;
+  /*transform: scale(3 ,3) rotate(1deg) rotateZ(12deg);*/
+}
+
+@keyframes colors  {
+  from {background-color: yellow;} to {background-color: purple;}}
+
+
+#positioned:hover {
+  width: 1840px;
+  height: 400px;
+
+}
+
+#big {
+  height: 2600px;
+}

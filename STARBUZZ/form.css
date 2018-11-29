@@ -1,0 +1,9 @@
+body {
+  background: #E2E5E2;
+}
+#form {
+  background: #E2E5E2;
+}
+input[type="submit"] {
+  border: blue;  /*test
+}
